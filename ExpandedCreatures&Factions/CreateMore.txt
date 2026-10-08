@@ -1,0 +1,27 @@
+Creating additional creatures
+A standard-library-only generator is included. From Command Prompt in the extracted package:
+
+
+py -3 tools\new_creature_mod.py --id shadowStag --name "Shadow Stag" --plural "Shadow Stags" --base unicorn --faction neutral --level 5
+
+
+
+War Unicorn-derived creature:
+
+py -3 tools\new_creature_mod.py --id blackCharger --name "Black Charger" --base war-unicorn --faction inferno --level 6
+
+
+
+Ballista-derived machine:
+
+py -3 tools\new_creature_mod.py --id boltEngine --name "Bolt Engine" --base ballista --faction neutral --level 5
+
+
+
+It creates a complete new mod folder with:
+
+mod.json;
+creature configuration;
+placeholder icons;
+placeholder adventure-map animation;
+base animation and sound references.
